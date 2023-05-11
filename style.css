@@ -5,36 +5,49 @@
 div.logo {
   width: 23%;
   padding: 1%;
-  text-align: center;
+  text-align: left;
 }
 nav.inline-block {
   width: 72%;
   padding: 1%;
+  text-align: right;
 }
 ul {
   width: 50%;
-  margin-left: auto;
+  text-align: right;
 }
 .heroimg {
-  padding: 25px;
+  padding: 10px;
 }
 .content {
   width: 500px;
-  margin: 0 auto; 
+  margin: 0 auto;
+  display: grid; 
+  grid-template-rows: 1fr;
+  grid-template-columns: 50% 25%;
+  grid-template-areas: "bio portrait";
+  background-color: #0b0c10;
+  color: #ffffff;
 }
 footer {
-  background-color: #373738;
+  background-color: #0B7A1C;
+  color: #ffffff;
 }
 footer ul {
   display: inline-block;
   vertical-align: top;
   padding: center;
 }
+header.Navigation {
+  background-color:#292a2a;
+  color:white
+}
 div.flexContainer {
   display: flex;
   width: 100%;
   margin: auto;
   padding: auto;
+  background-color: #5abd6a;
 }
 div.flexContainer {
 display: flex;
@@ -64,6 +77,8 @@ div.container3 {
     grid-template-rows: 1fr;
     grid-template-columns: 32% 32% 32%;
     grid-template-areas: "workitem1 workitem2 workitem3";
+    background-color: #292a2a;
+    color:#ffffff;
     }
 html {
   scroll-behavior: smooth;
