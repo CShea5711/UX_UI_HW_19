@@ -65,6 +65,9 @@ div.container3 {
     grid-template-columns: 32% 32% 32%;
     grid-template-areas: "workitem1 workitem2 workitem3";
     }
+html {
+  scroll-behavior: smooth;
+}
 
 @media only screen and (max-width: 600px){
   div.flexContainer {
